@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 320px;
+    border-radius: 15px;
+}
+
+body{
+    background-image: url(/img/1330586.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'PT Serif', serif;
+}
+
+.container{
+    max-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10%;
+    ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        list-style: none;
+    }
+}
